@@ -1,16 +1,18 @@
 name: llms
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - python=3.11 
   - pip
   - python-dotenv
   - requests
   - numpy
   - pandas
   - scipy
-  - pytorch
+  - pytorch=2.2.2
+  - cpuonly
   - jupyterlab
   - ipywidgets
   - matplotlib
